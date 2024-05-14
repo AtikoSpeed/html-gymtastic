@@ -1,0 +1,112 @@
+* {
+  /* make sure all elements use border-box - include padding and margin in height/width */
+  box-sizing: border-box;
+  /* reset default browser margin */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+header ul,
+header li {
+  display: inline;
+}
+
+header li {
+  margin-left: 4%;
+}
+
+header ul {
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+header,
+footer {
+  color: white;
+}
+
+header,
+footer,
+main {
+  padding: 20px;
+}
+
+header,
+footer {
+  background-color: #237ba4;
+}
+
+h1 {
+  color: #237ba4;
+  margin-top: 10px;
+}
+
+main p {
+  font-size: large;
+  margin-top: 25px;
+}
+
+main span {
+  color: #237ba4;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 15px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#orangeButton {
+  font-size: medium;
+  background-color: white;
+  color: #ef813f;
+  border-color: #ef813f;
+  border: solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#face,
+#insta,
+#ytbe {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: large;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+}
+
+#insta {
+  background-color: #884aef;
+  margin-left: 0;
+}
+
+#face {
+  background-color: #1b78e5;
+}
+
+#ytbe {
+  background-color: #f3302e;
+}
+
+footer ul {
+  padding-left: 25px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer p {
+  font-size: larger;
+  margin-bottom: 10px;
+}
